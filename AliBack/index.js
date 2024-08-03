@@ -13,7 +13,7 @@ dbConnect();
 //insertData() ; 
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://aliexpress-full-stack.onrender.com",
     credential: true
     
 }))
