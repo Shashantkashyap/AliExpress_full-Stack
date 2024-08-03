@@ -131,9 +131,7 @@ We welcome contributions to the AliExpress App! If you'd like to contribute, ple
 4. Push to the branch (`git push origin feature/your-feature-name`).
 5. Open a pull request and describe your changes.
 ## API Reference
-
-https://grey-space-839917.postman.co/workspace/Shashant~d000b598-7f7a-4056-8fba-9d7f5430ba25/collection/29320905-b5c8de90-ae8c-4655-96e7-b9c5d7162558?action=share&creator=29320905
-
+https://www.postman.com/grey-space-839917/workspace/aliexpress/collection/29320905-b5c8de90-ae8c-4655-96e7-b9c5d7162558?action=share&creator=29320905
 
 ## License
 
