@@ -19,7 +19,7 @@ function ProductDescription() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/getAllProduct");
+        const response = await fetch("https://aliexpress-backend.onrender.com/api/getAllProduct");
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -41,7 +41,7 @@ function ProductDescription() {
         const { id, title, price, description, category, images } = productData;
 
         if (id && title && price && description && category && images) {
-          const response = await fetch('http://localhost:3000/api/cart/add', {
+          const response = await fetch('https://aliexpress-backend.onrender.com/api/cart/add', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

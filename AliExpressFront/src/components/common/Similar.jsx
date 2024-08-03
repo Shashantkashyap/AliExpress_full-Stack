@@ -14,7 +14,7 @@ function Similar() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/getAllProduct");
+        const response = await fetch("https://aliexpress-backend.onrender.com/api/getAllProduct");
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

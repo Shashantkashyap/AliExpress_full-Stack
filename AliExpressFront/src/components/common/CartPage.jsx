@@ -24,7 +24,7 @@ function CartPage() {
   const fetchCartItems = useCallback(async () => {
     if (userEmail) {
       try {
-        const response = await fetch("http://localhost:3000/api/cart", {
+        const response = await fetch("https://aliexpress-backend.onrender.com/api/cart", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -53,7 +53,7 @@ function CartPage() {
   const handleDelete = async (productId) => {
     if (userEmail) {
       try {
-        const response = await fetch("http://localhost:3000/api/cart/delete", {
+        const response = await fetch("https://aliexpress-backend.onrender.com/api/cart/delete", {
           method: "DELETE",
           headers: {
             "Content-Type": "application/json",
