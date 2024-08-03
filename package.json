@@ -1,0 +1,16 @@
+{
+  "name": "aliexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd AliBack && npm install",
+    "start-server": "cd AliBack && node index.js",
+    "install-client": "cd AliExpressFront && npm install",
+    "build-client": "cd AliExpressFront && npm run build",
+    "start-client": "cd AliExpressFront && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
